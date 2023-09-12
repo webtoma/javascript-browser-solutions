@@ -8,6 +8,7 @@ function modifyHTML(type, target, content){
         target.innerText = content;
     }
     if(type === "image"){
+        
         target.src = content;
     }
 }

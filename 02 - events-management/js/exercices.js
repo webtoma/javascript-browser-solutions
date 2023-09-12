@@ -13,16 +13,3 @@ myButton.addEventListener("click", function(e){
     console.log(this); // Pour viser l'élément déjà sélectionné, utiliser this
     this.style.backgroundColor = "grey";
 });
-
-
-// Simple smooth scroll
-$(document).ready(function(){
-    $("a.smooth-scroll").addEventListener('click', function(event) {
-
-        event.preventDefault();
-  
-        $('html, body').animate({
-          scrollTop: $(this.href).offset().top
-        }, 800);
-    });
-  });

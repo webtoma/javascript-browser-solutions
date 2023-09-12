@@ -23,7 +23,7 @@ Ce projet propose six exercices pour vous aider à maîtriser la manipulation du
 **Objectif :** Insérez un nouvel élément HTML dans le DOM.
 
 1. Créez un bouton (`<button>`) avec le texte "Cliquez ici".
-2. Utilisez JavaScript pour sélectionner un élément existant (par exemple, un `<div>`) dans votre document HTML.
+2. Utilisez JavaScript pour sélectionner un élément existant (par exemple, une `<div>`) dans votre document HTML.
 3. Ajoutez le bouton en tant qu'enfant de cet élément.
 
 ## Exercice 4 : Modifier les Classes d'un Élément
